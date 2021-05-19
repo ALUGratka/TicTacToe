@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/item_score_activity_single_player_result_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:textColor="@color/dark_purple"/>
+    <TextView
+        android:id="@+id/item_score_activity_single_player_result_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:textSize="16sp"
+        android:textColor="@color/dark_purple"
+        android:gravity="start"
+       />
+    <TextView
+        android:id="@+id/item_score_activity_single_player_number_of_games"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textSize="16sp"
+        android:textColor="@color/dark_purple"
+        android:gravity="end"/>
+    <TextView
+        android:id="@+id/item_score_activity_single_player_number_of_win"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textSize="16sp"
+        android:textColor="@color/dark_purple"
+        android:gravity="end"
+       />
+    <TextView
+        android:id="@+id/item_score_activity_single_player_number_of_lost"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textSize="16sp"
+        android:textColor="@color/dark_purple"
+        android:gravity="end"
+        />
+    <TextView
+        android:id="@+id/item_score_activity_single_player_number_of_draw"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textSize="16sp"
+        android:textColor="@color/dark_purple"
+        android:gravity="end"
+        />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/assistant_extralight</item>
+        <item>@font/boogaloo</item>
+        <item>@font/syncopate</item>
+        <item>@font/unica_one</item>
+        <item>@font/wendy_one</item>
+        <item>@font/wire_one</item>
+        <item>@font/work_sans_thin</item>
+    </array>
+</resources>

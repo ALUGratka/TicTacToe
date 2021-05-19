@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="472dp"
+        android:layout_marginStart="-100dp"
+        android:layout_marginTop="-300dp"
+        android:layout_marginEnd="-100dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_circle_backgroung_gradient">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:gravity="bottom|center_horizontal"
+            android:padding="50dp"
+            android:text="@string/activity_game_title"
+            android:textColor="@color/light_purple"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:gravity="center|bottom"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_x_sign" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_o_sign"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@drawable/ic_draw"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/activity_game_X_win_number_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4 WINS"
+                android:textColor="@color/dark_blue"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/activity_game_O_win_number_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2 WINS"
+                android:textColor="@color/dark_purple"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/activity_game_draw_number_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="3 DRAW"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_game_board_game_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="top|center_horizontal"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/activity_game_X_playing_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textColor="@color/light_purple"
+                android:background="@drawable/shape_circle_x_playing"
+                android:text="@string/activity_game_X_playing_text_view"/>
+            <TextView
+                android:id="@+id/activity_game_O_playing_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textColor="@color/light_purple"
+                android:background="@drawable/shape_circle_o_playing"
+                android:visibility="gone"
+                android:text="@string/activity_game_O_playing_text_view"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/activity_game_finish_button"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:textColor="@drawable/button_text_color"
+            android:background="@drawable/button"
+            android:text="@string/activity_game_finish_button"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

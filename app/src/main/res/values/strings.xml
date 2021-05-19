@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+
+    <!-- MENU -->
+    <string name="activity_menu_single_play_button">Single play</string>
+    <string name="activity_menu_multiple_play_button">Multiple play</string>
+    <string name="activity_menu_scores_button">SCORES</string>
+    <string name="activity_menu_exit_button">EXIT</string>
+
+    <!-- SITE -->
+    <string name="activity_choose_site_pick_your_side_title">PICK YOUR SIDE</string>
+    <string name="activity_choose_site_start_button">Start</string>
+    <string name="activity_choose_site_second_button">Second</string>
+    <string name="activity_choose_site_first_button">First</string>
+    <string name="activity_choose_site_back_button">Back</string>
+
+    <!-- SPLASH -->
+    <string name="activity_splash_app_name">TIC TAC TOE</string>
+
+    <!-- GAME -->
+    <string name="activity_game_X_playing_text_view">X PLAYING</string>
+    <string name="activity_game_O_playing_text_view">O PLAYING</string>
+    <string name="activity_game_finish_button">FINISH</string>
+    <string name="activity_game_reply_button">REPLAY</string>
+    <string name="activity_game_title">Game</string>
+    <string name="activity_game_alert_dialog_title">Finish</string>
+    <string name="activity_game_alert_dialog_text">Are you sure you want to leave this game?</string>
+    <string name="activity_game_alert_dialog_positive_answer">YES</string>
+    <string name="activity_game_alert_dialog_negative_answer">NO</string>
+    <string name="game_activity_x_wod_count">" WINS"</string>
+    <string name="game_activity_o_wod_count">" WINS"</string>
+    <string name="game_activity_draw_wod_count">" DRAWS"</string>
+    <string name="activity_scores_title">SCORES</string>
+    <string name="activity_scores_return_button">Return</string>
+    <string name="activity_scores_single_play_title">SINGLE PLAY</string>
+    <string name="activity_scores_multiple_play_title">MULTIPLE PLAY</string>
+
+
+    <string name="fragment_single_score_draw_title">DRAW</string>
+    <string name="fragment_single_score_lost_title">LOST</string>
+    <string name="fragment_single_score_win_title">WIN</string>
+    <string name="fragment_single_score_games_title">GAMES</string>
+    <string name="fragment_single_score_date_title">DATE</string>
+
+    <string name="fragment_multiple_score_draw_title">DRAW</string>
+    <string name="fragment_multiple_score_lost_title">O</string>
+    <string name="fragment_multiple_score_win_title"> X</string>
+    <string name="fragment_multiple_score_games_title">GAMES</string>
+    <string name="fragment_multiple_score_date_title">DATE</string>
+</resources>
